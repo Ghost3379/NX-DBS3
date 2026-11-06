@@ -1,0 +1,32 @@
+# KiCad temporary and auto-save files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.bak
+*.tmp
+*_autosave-*
+*.lck
+
+# KiCad 3D cache and netlists
+*.net
+*.drc
+fp-info-cache
+
+# Gerber and fabrication outputs (can be tracked in /gerbers/ or ignored)
+*.pho
+*.gbr
+*.drl
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor temporary folders
+.vscode/
+.idea/
+.history/
+*.swp
+*~
+

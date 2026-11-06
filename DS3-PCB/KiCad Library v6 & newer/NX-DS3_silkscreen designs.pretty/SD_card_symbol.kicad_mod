@@ -1,0 +1,309 @@
+(footprint "SD_card_symbol"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03fd1362-398c-478e-a9ea-8667cca7a03b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c6faa0b1-2b52-4315-af50-c17188c4b686")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "827002de-abb7-468d-a28d-dcb7519676e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e5511b-ddef-4f12-861b-459b02a0f1f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.1 -2.683094)
+		(end -2.1 2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "661d5783-bb4d-4d27-afb6-9646eee90762")
+	)
+	(fp_line
+		(start -2.1 2.92)
+		(end 2.068296 2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee5b1c0c-586c-45e0-bc44-9b21a94e089b")
+	)
+	(fp_line
+		(start 1.308557 -2.873032)
+		(end -1.910068 -2.873032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce8f6b34-8496-46f6-9aa8-2ca9da1887c5")
+	)
+	(fp_line
+		(start 1.404358 -0.78374)
+		(end 2.068296 -0.78374)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4508d8c6-1aa5-4826-b4f4-50ef53b59ac9")
+	)
+	(fp_line
+		(start 1.404358 -0.592972)
+		(end 1.404358 -0.78374)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5a4f0a3-acf0-456e-abad-ea62e0144bde")
+	)
+	(fp_line
+		(start 1.498488 -1.923352)
+		(end 1.498488 -2.683094)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b0f4a77-3ce5-4d71-a5f1-855de4855c68")
+	)
+	(fp_line
+		(start 2.068296 -1.353546)
+		(end 1.498488 -1.923352)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d267f16-2855-4a93-9653-7323c9b55cc7")
+	)
+	(fp_line
+		(start 2.068296 -0.78374)
+		(end 2.068296 -1.353546)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "576e7a59-7de2-488d-a4e2-d46ab94dc103")
+	)
+	(fp_line
+		(start 2.068296 0.070967)
+		(end 1.404358 -0.592972)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4c884e0-30ce-4365-8c44-f47ac96ee3af")
+	)
+	(fp_line
+		(start 2.068296 0.070967)
+		(end 2.068296 2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2b6fd47-b87d-4f77-95be-0dd37439ba93")
+	)
+	(fp_rect
+		(start -1.1 -2.38)
+		(end -1.6 -1.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "04d49b81-616d-4e49-8840-8b859c055583")
+	)
+	(fp_rect
+		(start -0.05 -2.38)
+		(end -0.55 -1.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f0e6a57e-ea06-4e62-80b0-1e3e1ccf3573")
+	)
+	(fp_rect
+		(start 1 -2.38)
+		(end 0.5 -1.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a0babd7d-c829-4a79-9a4e-10e7c2187d05")
+	)
+	(fp_arc
+		(start -2.1 -2.683094)
+		(mid -2.044369 -2.817398)
+		(end -1.910065 -2.873032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1775c14a-61c0-43f4-b825-d0bba7a734d3")
+	)
+	(fp_arc
+		(start 1.308557 -2.873032)
+		(mid 1.442863 -2.8174)
+		(end 1.498488 -2.683094)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "456b029a-2e97-4354-93fe-fcc9807cabbc")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -0.28) (xy -0.7 0.42) (xy 0.7 0.42)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "509a24e2-a793-4af7-bb29-f52bb584d085")
+	)
+	(fp_text user "SD-CARD"
+		(at -1.8 1.79 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "941d9f4a-91da-449c-a327-dc6312a142f3")
+		(effects
+			(font
+				(face "Circuit Forem")
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+		(render_cache "SD-CARD" 0
+			(polygon
+				(pts
+					(xy -1.7655 1.214865) (xy -1.7655 1.258279) (xy -1.71082 1.312959) (xy -1.667406 1.312959) (xy -1.287334 1.312959)
+					(xy -1.287334 1.214865) (xy -1.667406 1.214865)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.7655 1.340314) (xy -1.765836 1.389193) (xy -1.765836 1.432608) (xy -1.71082 1.487288) (xy -1.662277 1.487288)
+					(xy -1.390557 1.487288) (xy -1.390893 1.579581) (xy -1.287334 1.579581) (xy -1.286967 1.487288)
+					(xy -1.287334 1.487288) (xy -1.287334 1.443873) (xy -1.342014 1.389193) (xy -1.385428 1.389193)
+					(xy -1.662277 1.389193) (xy -1.661941 1.340314)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.7655 1.606905) (xy -1.7655 1.705) (xy -1.385428 1.705) (xy -1.287334 1.705) (xy -1.287334 1.661616)
+					(xy -1.342014 1.606905) (xy -1.385428 1.606905)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.218732 1.214865) (xy -1.218732 1.514643) (xy -1.218732 1.705) (xy -1.120638 1.705) (xy -0.833195 1.705)
+					(xy -0.817105 1.705) (xy -0.735101 1.622995) (xy -0.735101 1.606905) (xy -0.735101 1.340314) (xy -0.833195 1.340314)
+					(xy -0.833195 1.606905) (xy -1.120638 1.606905) (xy -1.120638 1.514643) (xy -1.120638 1.312959)
+					(xy -0.833195 1.312959) (xy -0.735101 1.312959) (xy -0.735101 1.2969) (xy -0.817105 1.214865) (xy -0.833195 1.214865)
+					(xy -1.120638 1.214865)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.68384 1.563522) (xy -0.68384 1.465428) (xy -0.427813 1.465428) (xy -0.427813 1.563522)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.321903 1.214865) (xy -0.376583 1.269576) (xy -0.376583 1.312959) (xy -0.278489 1.312959)
+					(xy -0.004692 1.312959) (xy -0.004692 1.36767) (xy 0.03869 1.36767) (xy 0.093401 1.312959) (xy 0.093401 1.214865)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.376583 1.340314) (xy -0.376583 1.705) (xy 0.03869 1.705) (xy 0.093401 1.65032) (xy 0.093401 1.533785)
+					(xy -0.004692 1.533785) (xy -0.004692 1.606905) (xy -0.278489 1.606905) (xy -0.278489 1.340314)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.154889 1.214865) (xy 0.154889 1.258279) (xy 0.209569 1.312959) (xy 0.252983 1.312959) (xy 0.540426 1.312959)
+					(xy 0.540426 1.389193) (xy 0.252983 1.389193) (xy 0.252983 1.340314) (xy 0.154889 1.340314) (xy 0.154889 1.705)
+					(xy 0.252983 1.705) (xy 0.252983 1.487288) (xy 0.540426 1.487288) (xy 0.540426 1.705) (xy 0.63852 1.705)
+					(xy 0.63852 1.312959) (xy 0.63852 1.214865) (xy 0.252983 1.214865)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.706878 1.214865) (xy 0.706878 1.258279) (xy 0.761557 1.312959) (xy 0.804972 1.312959) (xy 1.122518 1.312959)
+					(xy 1.122518 1.432608) (xy 0.804972 1.432608) (xy 0.804972 1.340314) (xy 0.706878 1.340314) (xy 0.706878 1.705)
+					(xy 0.804972 1.705) (xy 0.804972 1.530702) (xy 1.042192 1.530702) (xy 1.167275 1.706038) (xy 1.220612 1.706038)
+					(xy 1.220612 1.6175) (xy 1.149842 1.519405) (xy 1.220612 1.448667) (xy 1.220612 1.432608) (xy 1.220612 1.312959)
+					(xy 1.220612 1.2969) (xy 1.138577 1.214865) (xy 1.122518 1.214865) (xy 0.804972 1.214865)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.288664 1.214865) (xy 1.288664 1.514643) (xy 1.288664 1.705) (xy 1.386758 1.705) (xy 1.674201 1.705)
+					(xy 1.690291 1.705) (xy 1.772295 1.622995) (xy 1.772295 1.606905) (xy 1.772295 1.340314) (xy 1.674201 1.340314)
+					(xy 1.674201 1.606905) (xy 1.386758 1.606905) (xy 1.386758 1.514643) (xy 1.386758 1.312959) (xy 1.674201 1.312959)
+					(xy 1.772295 1.312959) (xy 1.772295 1.2969) (xy 1.690291 1.214865) (xy 1.674201 1.214865) (xy 1.386758 1.214865)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
