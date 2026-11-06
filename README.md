@@ -19,6 +19,13 @@ Built on a compact **0.8mm PCB in the M.2 2260 ($22 \times 60\text{ mm}$) envelo
 3. **The Breadboard Companion**: Dual rows of standard **2.54mm (0.1") castellated pins** running along the perimeter allow the board to sit cleanly on standard breadboards or be surface-mounted directly to carrier PCBs.
 4. **Zero-Z Flat Bottom**: Because all ICs, passives, and connectors are strictly top-mounted, the bottom is completely smooth fiberglass and copper—allowing it to be mounted flush against aluminum, 3D prints, or battery packs using thermal tape without risk of short circuits.
 
+<p align="center">
+  <img src="docs/NX-DS3_concept.png" alt="NX-DS3 Mechanical & Architectural Concept" width="85%">
+</p>
+<p align="center">
+  <em>NX-DS3 Architectural Concept — M.2 2260 Form Factor with Breakable Key-E Tab & SMT Rear Power Tail.</em>
+</p>
+
 ```text
                                22.0 mm
           +-------------[ Mid-Mount USB-C ]-------------+
