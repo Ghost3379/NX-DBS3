@@ -429,7 +429,7 @@
         "uuid": "801a8456-ae35-4380-8992-bdd17fb616f2"
       }
     ],
-    "used_designators": "D1-3,#PWR1-83,#PWR88,#PWR116,#PWR121,#PWR126,#PWR137,R1-19,R29,J1-3,JP1,P1,C1-25,C27-30,TH1,U1-12,Q1-3,AE1,L1-6,Y1-2",
+    "used_designators": "D1-3,#PWR1-98,#PWR116,#PWR121,#PWR126,#PWR137,R1-21,R29,J1-3,JP1,P1,C1-34,TH1,U1-12,Q1-3,AE1,L1-6,Y1-2,SW1-2",
     "variants": []
   },
   "sheets": [
@@ -448,6 +448,10 @@
     [
       "abf03440-1dcd-4ee6-8b3f-7e7038149428",
       "Peripherie section"
+    ],
+    [
+      "92cfb5b4-91c1-445c-8a74-08b8ff436045",
+      "Connections"
     ]
   ],
   "text_variables": {},
