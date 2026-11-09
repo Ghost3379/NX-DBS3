@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "NX-DS3"
+			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2"
 					(page "4")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "NX-DS3"
+			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2"
 					(page "2")
 				)
@@ -136,7 +136,7 @@
 			)
 		)
 		(instances
-			(project "NX-DS3"
+			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2"
 					(page "3")
 				)

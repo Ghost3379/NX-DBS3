@@ -1,4 +1,4 @@
-# NX-DS3
+# NX-DBS3
 
 > **High-Density Modular Development Platform**  
 > *M.2 2260 Form Factor • Breakable Nucleo-Style Blade • ESP32-S3R8 • 2A Power Tree • 9-DOF IMU • I2S Audio*
@@ -7,23 +7,23 @@
 
 ## Overview
 
-The **NX-DS3** is an ultra-dense, versatile embedded development board engineered to bridge the gap between high-speed benchtop breadboard prototyping and space-constrained, high-vibration interactive builds (props, robotics, wearables, and modular IoT nodes).
+The **NX-DBS3** is an ultra-dense, versatile embedded development board engineered to bridge the gap between high-speed benchtop breadboard prototyping and space-constrained, high-vibration interactive builds (props, robotics, wearables, and modular IoT nodes).
 
 > [!IMPORTANT]
 > **NX Proprietary Docking Port (Non-PC Hardware Interconnect):**  
 > While the board utilizes the standard mechanical **M.2 Key-E form factor and connector**, the pinout is an **independent, custom maker standard** (similar to the SparkFun MicroMod architecture). The M.2 connector routes raw battery power, high-current 5V LED rails, speaker outputs, and 3.3V GPIOs directly to custom carrier boards. **Do NOT plug this board into a personal computer's motherboard M.2 slot.**
 
-Built on a compact **0.8mm PCB in the M.2 2260 ($22 \times 60\text{ mm}$) envelope** with **100% single-sided component placement** (zero components on the bottom layer), the NX-DS3 introduces a **dual-personality mechanical architecture**:
+Built on a compact **0.8mm PCB in the M.2 2260 ($22 \times 60\text{ mm}$) envelope** with **100% single-sided component placement** (zero components on the bottom layer), the NX-DBS3 introduces a **dual-personality mechanical architecture**:
 1. **The Modular Cartridge**: A standard **M.2 Key-E edge connector** allowing the board to slide directly into low-profile carrier boards, custom backplanes, or modular hilt sleds.
 2. **The Breakable Blade**: Inspired by the STMicroelectronics Nucleo ST-Link snap-off design, users who do not need the M.2 interface can **snap off the gold-finger tab along perforated mousebites**, instantly shortening the board from $60\text{ mm}$ to **$52\text{ mm}$ (identical to standard Adafruit Feather length)** and exposing a clean row of high-power solder pads.
 3. **The Breadboard Companion**: Dual rows of standard **2.54mm (0.1") castellated pins** running along the perimeter allow the board to sit cleanly on standard breadboards or be surface-mounted directly to carrier PCBs.
 4. **Zero-Z Flat Bottom**: Because all ICs, passives, and connectors are strictly top-mounted, the bottom is completely smooth fiberglass and copper—allowing it to be mounted flush against aluminum, 3D prints, or battery packs using thermal tape without risk of short circuits.
 
 <p align="center">
-  <img src="docs/NX-DS3_concept.png" alt="NX-DS3 Mechanical & Architectural Concept" width="85%">
+  <img src="docs/NX-DBS3_concept.png" alt="NX-DBS3 Mechanical & Architectural Concept" width="85%">
 </p>
 <p align="center">
-  <em>NX-DS3 Architectural Concept — M.2 2260 Form Factor with Breakable Key-E Tab & SMT Rear Power Tail.</em>
+  <em>NX-DBS3 Architectural Concept — M.2 2260 Form Factor with Breakable Key-E Tab & SMT Rear Power Tail.</em>
 </p>
 
 ```text
@@ -59,7 +59,7 @@ N X - D S 3
 └─► Prototyping Series (Continuous Experimental Fleet Registry)
 ```
 
-* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-DS3`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
+* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-DBS3`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
 * **The "NX" Philosophy:** Inspired by Starfleet's experimental registry designation ([Memory Alpha: NX](https://memory-alpha.fandom.com/wiki/NX)), the **NX** prefix denotes an active, pioneering prototyping platform where each build is an evolving hardware milestone.
 
 ---
@@ -166,7 +166,7 @@ Available on both the **2.54mm castellated side headers** and the **M.2 Key-E ed
 ## Repository Structure
 
 ```text
-NX-DS3/
+NX-DBS3/
 ├── README.md               # Master technical documentation & architecture overview
 ├── docs/                   # Mechanical diagrams, pinout cards, and RF guidelines
 ├── hardware/               # KiCad 8/10 project files

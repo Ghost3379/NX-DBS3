@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NX-DBS3_footprints") (type "KiCad") (uri "C:/Users/i40011169/LOCAL Docs/GIT/NX-DBS3/DBS3-PCB/KiCad Library v6 & newer/NX-DBS3_footprints.pretty") (options "") (descr ""))
+)
