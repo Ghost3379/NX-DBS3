@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 190.5 52.07) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05067bc6-89a3-4b00-b703-2ca80ea5095d")
+	)
+	(wire
+		(pts
 			(xy 182.88 101.6) (xy 182.88 154.94)
 		)
 		(stroke
@@ -164,6 +174,16 @@
 			(type default)
 		)
 		(uuid "6c438cee-1865-4f46-a96e-f3a7999ae79f")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 203.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ba9728-d1e8-4267-b977-8c7b4232e79b")
 	)
 	(wire
 		(pts
@@ -706,7 +726,7 @@
 			)
 		)
 		(pin "USB_DETECT" output
-			(at 203.2 45.72 180)
+			(at 203.2 46.99 180)
 			(uuid "49efa56d-29e9-4180-8330-1ef90094aa09")
 			(effects
 				(font
