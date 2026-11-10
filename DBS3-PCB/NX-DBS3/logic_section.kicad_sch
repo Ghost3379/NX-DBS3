@@ -1204,7 +1204,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ESP32-S3R8:QFN40P700X700X90-57N"
+			(property "Footprint" "NX-DBS3_footprints:QFN40P700X700X90-57N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2360,7 +2360,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_LGA:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
+			(property "Footprint" "NX-DBS3_footprints:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2961,7 +2961,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U10"
+			(property "Reference" "U5"
 				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3127,7 +3127,7 @@
 					(start -12.7 8.89)
 					(end 12.7 -8.89)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -3604,8 +3604,8 @@
 		)
 	)
 	(rectangle
-		(start 132.08 15.24)
-		(end 163.83 31.75)
+		(start 133.223 19.05)
+		(end 164.973 38.1)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3637,7 +3637,7 @@
 	)
 	(text "ESP32-S3 chip strapping pins:\n\nGPIO 0.\nGPIO 3.\nGPIO 45.\nGPIO 46.\n\nDO NOT USE THOSE AS GPIOs"
 		(exclude_from_sim no)
-		(at 132.842 23.876 0)
+		(at 133.858 28.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3663,16 +3663,16 @@
 		(uuid "21d11583-8a23-4109-a002-497c2eabe814")
 	)
 	(junction
+		(at 86.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444272e6-ea8f-497c-8b31-94f88d0c6d3e")
+	)
+	(junction
 		(at 177.8 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49135dea-3b6b-4d94-a57a-15f46b954b9c")
-	)
-	(junction
-		(at 86.36 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49c6ee44-d18c-486d-8c34-7ddb057ad1c1")
 	)
 	(junction
 		(at 143.51 165.1)
@@ -3757,6 +3757,10 @@
 	(no_connect
 		(at 121.92 123.19)
 		(uuid "70715ca7-57be-41a6-addd-b45ecb53be96")
+	)
+	(no_connect
+		(at 172.72 82.55)
+		(uuid "90b981a5-a7ed-4bcc-ae18-f8c69a70919c")
 	)
 	(no_connect
 		(at 121.92 120.65)
@@ -4048,16 +4052,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 177.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3776c11c-c6e7-4436-b11f-bf5bf26c715c")
-	)
-	(wire
-		(pts
 			(xy 173.99 148.59) (xy 172.72 148.59)
 		)
 		(stroke
@@ -4268,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 88.9 72.39)
+			(xy 86.36 72.39) (xy 87.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5057,7 +5051,7 @@
 		(uuid "1075093e-b801-4697-99a7-47781019ae79")
 	)
 	(label "CTRL_RF"
-		(at 88.9 72.39 0)
+		(at 87.63 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5395,17 +5389,6 @@
 		)
 		(uuid "8e89d646-f348-4379-baab-1b54bb7daa50")
 	)
-	(hierarchical_label "IO3"
-		(shape bidirectional)
-		(at 177.8 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9738a913-06ee-4d57-b16f-1704255fcb0a")
-	)
 	(hierarchical_label "IO4"
 		(shape input)
 		(at 177.8 85.09 0)
@@ -5594,7 +5577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03cfee8d-089f-4623-a946-3941d999b0fa")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR039"
 			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5654,7 +5637,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR068")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ad9458-0e7f-452f-858f-c470feeb1eca")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR045"
 			(at 228.6 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +5715,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR090")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04feda3e-95f5-4160-9374-bbc61ad68d10")
-		(property "Reference" "C22"
+		(property "Reference" "C13"
 			(at 48.2663 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +5795,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C22")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5830,7 +5813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05b21f70-9ca2-4cd3-9e55-387591930908")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 56.134 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +5889,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5924,7 +5907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06301220-66e2-4a0c-bd85-85f3486ae6dc")
-		(property "Reference" "C24"
+		(property "Reference" "C17"
 			(at 140.97 171.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +5971,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6005,7 +5988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d4460f0-5d77-44af-af67-cc177f49f7ab")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 147.32 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +6054,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184533ec-1847-4948-a550-8aab1b9bb2cc")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 186.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +6132,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d89702c-c8c4-43eb-a17c-fc8fb04dd475")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 51.054 161.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6230,7 +6213,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6248,7 +6231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "211b7b98-eb5f-4562-b247-27c2b5ec2a3b")
-		(property "Reference" "C25"
+		(property "Reference" "C16"
 			(at 111.76 167.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6312,7 +6295,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C25")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6330,7 +6313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fed6db-058b-4d3d-9d7c-b51601a1de47")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR026"
 			(at 209.55 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6390,7 +6373,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR081")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a8f28d7-b6d1-4497-80a0-8325d7327830")
-		(property "Reference" "L5"
+		(property "Reference" "L2"
 			(at 27.94 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6452,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "L5")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "318708fd-38d2-42d8-8244-1d222ba76194")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR044"
 			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6547,7 +6530,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR089")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3591a054-35f8-4bb5-ae30-94b06dda0e32")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR042"
 			(at 99.06 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +6608,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR028")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6665,7 +6648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6725,7 +6708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586d9e30-cf8b-4477-8340-7405ff1ad9f9")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR033"
 			(at 219.71 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6785,7 +6768,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR080")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6803,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59854f7c-a227-42a2-96bc-3b99512816d0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR053"
 			(at 52.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6863,7 +6846,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR071")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6881,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a407a38-49b2-415e-b4ca-c8c5276301b6")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR038"
 			(at 30.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6941,7 +6924,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR069")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa73f9d-1ec0-4a10-a9ed-e62decae1652")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR049"
 			(at 95.25 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7019,7 +7002,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR072")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7037,7 +7020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63072759-93af-4655-a271-50cf35071cd7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7097,7 +7080,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7115,7 +7098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c3c055-eb0d-4ec4-8c00-0be9fa1ca7c3")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 147.32 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7376,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c98f21-ef4c-4109-b920-569066b1fa02")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR041"
 			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7471,7 +7454,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR063")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7489,7 +7472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776f1b7b-7274-4472-8a94-c0700f9cb274")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR046"
 			(at 256.54 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7549,7 +7532,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR092")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7566,7 +7549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77b9b309-290e-4da4-a563-22016828ee56")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 226.314 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7613,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "R20")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7647,7 +7630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bc4960d-9440-4266-91e5-d1100466d049")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 84.074 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7694,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7729,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81aae179-6d3e-4378-bc8f-0f6cb3043543")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR032"
 			(at 209.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7789,7 +7772,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR079")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7807,7 +7790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d8a568-a7a5-4e6d-8eb3-3c656c973338")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR029"
 			(at 270.51 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7850,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR088")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7885,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943e7ac2-442f-4035-8055-508ec1ff7aad")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR031"
 			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7945,7 +7928,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR067")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7963,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e9ff19-6d56-47bc-a321-200d68b1d474")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR023"
 			(at 88.9 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8023,7 +8006,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR066")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8040,7 +8023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c909685-699f-41c2-9928-5e26a48f0789")
-		(property "Reference" "L6"
+		(property "Reference" "L3"
 			(at 27.94 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8085,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "L6")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -8119,7 +8102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e5c0863-bd97-4cfa-8426-b280875eb3ac")
-		(property "Reference" "C26"
+		(property "Reference" "C7"
 			(at 204.978 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,7 +8166,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C26")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8200,7 +8183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ed08683-377c-417d-8b27-6cad5bb61743")
-		(property "Reference" "C31"
+		(property "Reference" "C12"
 			(at 266.954 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8247,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C31")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8282,7 +8265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdbd016-31e1-415f-be82-2a05b01c5910")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR052"
 			(at 147.32 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8342,7 +8325,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR070")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8360,7 +8343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fff9497-e4e5-42ce-ad36-2f35903e1b59")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR034"
 			(at 232.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8403,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR083")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8438,7 +8421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02790af-b000-4b9e-bdf0-314b7889d058")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR051"
 			(at 109.22 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8481,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR074")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8516,7 +8499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2567476-df39-455d-bd9d-1532da26fd17")
-		(property "Reference" "C23"
+		(property "Reference" "C18"
 			(at 153.67 171.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8580,7 +8563,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C23")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8597,7 +8580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a277bd54-707b-42e2-8505-f00aa9ba5ccd")
-		(property "Reference" "C29"
+		(property "Reference" "C10"
 			(at 239.014 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8644,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C29")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5076e60-877d-4845-90ec-9d294d1e08b0")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR027"
 			(at 232.41 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8722,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR082")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8757,7 +8740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ebf7e3-ada9-4bf0-8696-d9bd51324008")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR035"
 			(at 242.57 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +8800,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR084")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8834,7 +8817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a978628a-cdbe-43b3-ae0b-27409fd819c5")
-		(property "Reference" "C27"
+		(property "Reference" "C8"
 			(at 216.154 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +8881,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C27")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8916,7 +8899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0489dd-ea17-4b74-a588-eda72bdcead0")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR050"
 			(at 109.22 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8976,7 +8959,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR073")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8994,7 +8977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21cec06-ed5d-43d3-baab-ac3647065bcb")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR028"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +9037,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR087")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9071,7 +9054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b60dbbbc-2b52-4ee2-9e72-60b87acbed62")
-		(property "Reference" "C28"
+		(property "Reference" "C9"
 			(at 227.838 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9118,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C28")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9255,7 +9238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 251.46 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9315,7 +9298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be823b3b-9706-4748-be4f-b19d15e0e825")
-		(property "Reference" "C6"
+		(property "Reference" "C14"
 			(at 101.6 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9362,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C6")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9397,7 +9380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6cbeb63-8442-4300-be83-9cdfceb0a4d7")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR037"
 			(at 270.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9457,7 +9440,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR086")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9475,7 +9458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc55d4f1-d4b2-4b77-9096-fa81b8803ac7")
-		(property "Reference" "C32"
+		(property "Reference" "C15"
 			(at 233.172 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9539,7 +9522,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C32")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9557,7 +9540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd348e54-40ce-4277-8e70-37a1999c43ab")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR043"
 			(at 228.6 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9617,7 +9600,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR091")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9633,10 +9616,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cfe15aa8-d5d6-40d0-85ee-65ba1c410ee4")
 		(property "Reference" "AE1"
-			(at 33.02 48.8949 0)
+			(at 33.02 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9713,7 +9695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d593ddd3-2978-45a0-a61e-9548f63b398c")
-		(property "Reference" "L2"
+		(property "Reference" "L4"
 			(at 113.0111 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9775,7 +9757,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "L2")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -9793,7 +9775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dec3ed9a-a50e-488b-bd05-e0187c26b8ad")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR048"
 			(at 53.34 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9835,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR075")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e686a065-1231-443c-9a6a-b15e59eba739")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR040"
 			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9931,7 +9913,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR064")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9949,7 +9931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e87372e7-7451-4e70-bacf-565692277e77")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR047"
 			(at 173.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10009,7 +9991,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR029")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10026,7 +10008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec4e1b24-a1bb-4476-9c8f-185f8256dde7")
-		(property "Reference" "C30"
+		(property "Reference" "C11"
 			(at 254.254 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10072,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C30")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10108,7 +10090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f007a505-cefa-4edd-8185-fbbc914afe6a")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR030"
 			(at 71.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10168,7 +10150,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR065")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10186,7 +10168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12120ac-9c0a-4de7-9da0-427d44976b06")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR036"
 			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10246,7 +10228,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "#PWR085")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10263,7 +10245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3a44da8-8ba6-4a72-aa1a-2b562a1b72b4")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 73.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10345,7 +10327,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10363,7 +10345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ce1b01-2096-4030-813a-09c5fcb6fda3")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 91.44 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10409,7 @@
 		(instances
 			(project "NX-DBS3"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)

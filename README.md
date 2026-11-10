@@ -59,7 +59,7 @@ N X - D B S 3
 └───────────► Prototyping Series (Continuous Experimental Fleet Registry)
 ```
 
-* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-DBS3`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
+* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379/NX-ISD) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-DBS3`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
 * **The "NX" Philosophy:** Inspired by Starfleet's experimental registry designation ([Memory Alpha: NX](https://memory-alpha.fandom.com/wiki/NX)), the **NX** prefix denotes an active, pioneering prototyping platform where each build is an evolving hardware milestone.
 
 ---

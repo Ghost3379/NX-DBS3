@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "NX-DBS3_footprints") (type "KiCad") (uri "${KIPRJMOD}/../KiCad Library v6 & newer/NX-DBS3_footprints.pretty") (options "") (descr ""))
 	(lib (name "NX-DBS3_silkscreen designs") (type "KiCad") (uri "${KIPRJMOD}/../KiCad Library v6 & newer/NX-DBS3_silkscreen designs.pretty") (options "") (descr ""))
+	(lib (name "NX-ISD_footprints") (type "KiCad") (uri "C:/Users/i40011169/LOCAL Docs/GIT/NX-ISD/ISD-PCB/KiCad Library v6 & newer/NX-ISD_footprints.pretty") (options "") (descr ""))
 )
