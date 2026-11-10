@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NX-DBS3.kicad_pro",
+    "filename": "NX-Edge.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,7 +656,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "NX-DBS3.kicad_sch",
+        "filename": "NX-Edge.kicad_sch",
         "name": "Stammblatt",
         "uuid": "801a8456-ae35-4380-8992-bdd17fb616f2"
       }

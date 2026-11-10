@@ -1,4 +1,4 @@
-# NX-DBS3
+# NX-Edge
 
 > **High-Density Modular Development Platform**  
 > *M.2 2260 Form Factor • Breakable Nucleo-Style Blade • ESP32-S3R8 • 2A Buck Power Tree • 9-DOF IMU • I2S Audio*
@@ -7,23 +7,23 @@
 
 ## Overview
 
-The **NX-DBS3** is an ultra-dense, versatile embedded development platform engineered to bridge the gap between high-speed benchtop breadboard prototyping and space-constrained, high-vibration interactive builds (props, robotics, wearables, and modular IoT nodes).
+The **NX-Edge** is an ultra-dense, versatile embedded development platform engineered to bridge the gap between high-speed benchtop breadboard prototyping and space-constrained, high-vibration interactive builds (props, robotics, wearables, and modular IoT nodes).
 
 > [!IMPORTANT]
 > **NX Proprietary Docking Port (Non-PC Hardware Interconnect):**  
 > While the board utilizes the standard mechanical **M.2 Key-E form factor and connector**, the pinout is an **independent, custom maker standard** (similar to the SparkFun MicroMod architecture). The M.2 connector routes raw battery power, high-current 5V LED rails, speaker outputs, and 3.3V GPIOs directly to custom carrier boards. **Do NOT plug this board into a personal computer's motherboard M.2 slot.**
 
-Built on a compact **0.8mm 4-layer PCB in the M.2 2260 ($22 \times 60\text{ mm}$) envelope** with **100% single-sided component placement** (zero components on the bottom layer), the NX-DBS3 introduces a **dual-personality mechanical architecture**:
+Built on a compact **0.8mm 4-layer PCB in the M.2 2260 ($22 \times 60\text{ mm}$) envelope** with **100% single-sided component placement** (zero components on the bottom layer), the NX-Edge introduces a **dual-personality mechanical architecture**:
 1. **The Modular Cartridge**: A standard **M.2 Key-E edge connector** allowing the board to slide directly into low-profile carrier boards, custom backplanes, or modular hilt sleds.
 2. **The Breakable Blade**: Inspired by the STMicroelectronics Nucleo ST-Link snap-off design, users who do not need the M.2 interface can **snap off the gold-finger tab along perforated mousebites**, instantly shortening the board from $60\text{ mm}$ to **$52\text{ mm}$ (identical to standard Adafruit Feather length)** and exposing a clean row of high-power solder pads.
 3. **The Breadboard Companion**: Dual rows of standard **2.54mm (0.1") castellated pins** running along the perimeter allow the board to sit cleanly on standard breadboards or be surface-mounted directly to carrier PCBs.
 4. **Zero-Z Flat Bottom**: Because all ICs, passives, and connectors are strictly top-mounted, the bottom is completely smooth fiberglass and copper—allowing it to be mounted flush against aluminum, 3D prints, or battery packs using thermal tape without risk of short circuits.
 
 <p align="center">
-  <img src="docs/NX-DBS3_concept.png" alt="NX-DBS3 Mechanical & Architectural Concept" width="85%">
+  <img src="docs/NX-Edge_concept.png" alt="NX-Edge Mechanical & Architectural Concept" width="85%">
 </p>
 <p align="center">
-  <em>NX-DBS3 Architectural Concept — M.2 2260 Form Factor with Breakable Key-E Tab & SMT Rear Power Tail.</em>
+  <em>NX-Edge Architectural Concept — M.2 2260 Form Factor with Breakable Key-E Tab & SMT Rear Power Tail.</em>
 </p>
 
 ```text
@@ -59,7 +59,7 @@ N X - D B S 3
 └───────────► Prototyping Series (Continuous Experimental Fleet Registry)
 ```
 
-* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379/NX-ISD) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-DBS3`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
+* **Lineage:** Direct architectural evolution of the [`NX-ISD`](https://github.com/Ghost3379/NX-ISD) (Intelligent Sensor Device). While the `NX-ISD` was purpose-built for tactical environmental and physiological sensing (BME680, MAX30102, display UI), the **`NX-Edge`** strips away enclosure-bound sensors to provide a pure, agile, high-horsepower development core with generous "batteries-included" onboard peripherals.
 * **The "NX" Philosophy:** Inspired by Starfleet's experimental registry designation ([Memory Alpha: NX](https://memory-alpha.fandom.com/wiki/NX)), the **NX** prefix denotes an active, pioneering prototyping platform where each build is an evolving hardware milestone.
 
 ---
@@ -79,7 +79,7 @@ N X - D B S 3
 
 ### 2. High-Headroom Power Architecture & Power-Path
 
-The NX-DBS3 implements a robust, autonomous **Power-Path management architecture** based on the proven Microchip AN1149 topology:
+The NX-Edge implements a robust, autonomous **Power-Path management architecture** based on the proven Microchip AN1149 topology:
 
 ```text
   USB-C (VBUS) ───► [Schottky D2] ─────────┐
@@ -220,7 +220,7 @@ By mapping internal peripherals primarily to non-header and dedicated digital pi
 ### Open-Source M.2 Template Attribution
 > [!NOTE]
 > **M.2 Key A+E 2260 Mechanical Model & Footprint:**  
-> The M.2 Key A+E mechanical boundary, card-edge footprint, and 3D modeling for the NX-DBS3 are based on the excellent open-source templates created by **RomanRom2**:  
+> The M.2 Key A+E mechanical boundary, card-edge footprint, and 3D modeling for the NX-Edge are based on the excellent open-source templates created by **RomanRom2**:  
 > 🔗 [RomanRom2 / proto-PCIexpress-KiCad — M.2 A+E Key 2260 Template](https://zxgit.org/RomanRom2/proto-PCIexpress-KiCad/src/commit/c8dc75b26b060bb7fc4acad4a52cc10a46d00019/Templates/M.2%20A+E%20Key%20Templates/M.2%20A+E%20Key%202260)  
 > *Massive props and gratitude to RomanRom2 for publishing precision KiCad PCIe and M.2 card templates for the maker and hardware engineering community.*
 
