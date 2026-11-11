@@ -16,4 +16,5 @@
 	(lib (name "XL-1010RGBC-WS2812B") (type "KiCad") (uri "${KIPRJMOD}/../KiCad Library v6 & newer/NX-Edge_symbols/XL-1010RGBC-WS2812B.kicad_sym") (options "") (descr ""))
 	(lib (name "YC248-JR-074K7L") (type "KiCad") (uri "${KIPRJMOD}/../KiCad Library v6 & newer/NX-Edge_symbols/YC248-JR-074K7L.kicad_sym") (options "") (descr ""))
 	(lib (name "WS25Q12JVPIQ") (type "KiCad") (uri "${KIPRJMOD}/../KiCad Library v6 & newer/NX-Edge_symbols/WS25Q12JVPIQ.kicad_sym") (options "") (descr ""))
+	(lib (name "NN02-201") (type "KiCad") (uri "C:/Users/i40011169/LOCAL Docs/GIT/NX-Edge/Edge-PCB/KiCad Library v6 & newer/NX-Edge_symbols/NN02-201.kicad_sym") (options "") (descr ""))
 )
