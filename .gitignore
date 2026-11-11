@@ -4,6 +4,7 @@
 *.kicad_sch-bak
 *-bak
 *.bak
+*-backups/
 *.tmp
 *_autosave-*
 *.lck

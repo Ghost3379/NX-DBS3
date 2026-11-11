@@ -1048,6 +1048,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-S3R8:ESP32-S3R8"
 			(pin_names
 				(offset 1.016)
@@ -4081,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ea85d9-05f2-409f-af3f-5c9cde720fef")
+	)
+	(wire
+		(pts
 			(xy 172.72 92.71) (xy 177.8 92.71)
 		)
 		(stroke
@@ -4168,6 +4319,16 @@
 			(type default)
 		)
 		(uuid "49bdb13b-f88c-422f-95ee-e3f879ece483")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c72c472-d95e-45d5-91d8-9fb31eb1895d")
 	)
 	(wire
 		(pts
@@ -4298,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "7298bb84-cdb5-4bd8-bd0e-354328caef14")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fda49c-5599-40cf-8e01-d191b4236cb3")
 	)
 	(wire
 		(pts
@@ -4741,6 +4912,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfee7db7-5ef7-4fd8-95c9-2d46cacc472c")
+	)
+	(wire
+		(pts
 			(xy 172.72 90.17) (xy 177.8 90.17)
 		)
 		(stroke
@@ -4801,16 +4982,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 121.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6a557d-b13d-4d89-9350-f6aec4fc839e")
-	)
-	(wire
-		(pts
 			(xy 143.51 156.21) (xy 143.51 165.1)
 		)
 		(stroke
@@ -4838,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "d2d45e8d-8862-48a8-91d5-3018281f544c")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 121.92 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d40d9e3f-349e-478b-b319-f1dc3ae6199d")
 	)
 	(wire
 		(pts
@@ -5276,7 +5437,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 114.3 63.5 180)
+		(at 109.22 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5496,7 +5657,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 114.3 60.96 180)
+		(at 109.22 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7659,6 +7820,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a75917e-e09e-432f-b521-7e889984b838")
+		(property "Reference" "R24"
+			(at 115.57 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 115.57 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2c42612-507e-4372-921e-b12fd006b3d8")
+		)
+		(pin "1"
+			(uuid "77318667-a51f-4b42-bfe0-38ae75778368")
+		)
+		(instances
+			(project "NX-Edge"
+				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 87.63 0)
 		(unit 1)
@@ -9158,6 +9399,86 @@
 			(project "NX-Edge"
 				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 63.5 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab9f7fcb-2556-4a03-9d62-927a29b4f9f7")
+		(property "Reference" "R27"
+			(at 115.57 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 115.57 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0437968d-0cb4-4ed3-bc6a-2d412353d7fa")
+		)
+		(pin "1"
+			(uuid "da2b7806-5254-40dd-abc9-f501c59da1e4")
+		)
+		(instances
+			(project "NX-Edge"
+				(path "/801a8456-ae35-4380-8992-bdd17fb616f2/cf6c865b-ca4a-4107-b146-20ee76f1d456"
+					(reference "R27")
 					(unit 1)
 				)
 			)
