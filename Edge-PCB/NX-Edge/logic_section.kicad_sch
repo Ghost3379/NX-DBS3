@@ -6118,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBA"
+		(property "Value" "12p"
 			(at 140.97 173.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +6198,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND3"
+		(property "Value" "40MHz"
 			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6209,7 +6209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_1210-4Pin_1.2x1.0mm"
 			(at 147.32 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6232,6 +6232,17 @@
 			)
 		)
 		(property "Description" "Three pin crystal, GND on pin 3"
+			(at 147.32 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Toleranc" "+- 1ppm"
 			(at 147.32 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8949,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBA"
+		(property "Value" "12p"
 			(at 153.67 173.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
