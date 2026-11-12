@@ -6077,7 +6077,7 @@
 		(uuid "42908984-3b2a-4409-9b66-f8c163e818eb")
 	)
 	(hierarchical_label "NPD_OUT"
-		(shape input)
+		(shape output)
 		(at 172.72 96.52 0)
 		(effects
 			(font
